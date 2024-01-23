@@ -7,7 +7,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 //which port it will be hosted on during develop
-const port = 3000;
+const port = 10000;
 
 //middleware to allow all ports during development
 app.use(cors());
